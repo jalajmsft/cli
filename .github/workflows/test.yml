@@ -23,6 +23,8 @@ jobs:
           az account show
           az storage -h
           
+    - name: Checkout
+      uses: actions/checkout@v1
           
     - name: Azure cli
       uses: ./
